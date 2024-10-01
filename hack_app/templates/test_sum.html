@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../static/styles.css">
+        <div id="header">
+          <h1>SumSports</h1>
+          <div id = "header_bttn">
+            <a href="/">Home</a>
+          </div>
+        </div>
+    </head>
+    <body>
+        <div id = "response-box">
+            <h1> Testing AI generated Player Summaries </h1>
+            <hr>
+            <p>Outdated summaries. OPENAI was only trained on data up to 2022.</p>
+            {{ response | safe }}
+        </div>
+    </body>
+</html>
